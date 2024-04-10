@@ -10,12 +10,17 @@ struct ContentView: View {
         TextField("3", value: $number2, format: .number)
         
         Button(action: {
-            answer = number1 + number2
+            answer = "\(number1 + number2)"
         }, label: {
             Text("add")
 
         })
-       
+        Button(action: {
+            answer = "\(number1 - number2)"
+        }, label: {
+            Text("subtract")
+
+        })
         Text(answer)
     }
 }
