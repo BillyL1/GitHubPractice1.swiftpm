@@ -7,5 +7,12 @@ struct ContentView: View {
         TextField("0", value: $number1, format: .number)
         TextField("3", value: $number2, format: .number)
         
+        Button(action: {
+            answer = number1 + number2
+        }, label: {
+            Text("add")
+
+        })
+       
     }
 }
