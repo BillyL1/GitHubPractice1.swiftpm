@@ -17,7 +17,6 @@ let package = Package(
             name: "GitHubPractice1",
             targets: ["AppModule"],
             bundleIdentifier: "org.jhhs.624256.GitHubPractice1",
-            teamIdentifier: "",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .placeholder(icon: .heart),
